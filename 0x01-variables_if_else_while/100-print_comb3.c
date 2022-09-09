@@ -18,17 +18,14 @@ int main(void)
 			if (i != k)
 			{
 				putchar(i);
-				putchar(k);
-			
-				if (i == 8 && k == 9)
+				putchar(k);			
+				if (i == '8' && k == '9')
 					continue;
-			
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	
 	putchar('\n');
 	return (0);
 }
