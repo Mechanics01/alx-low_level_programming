@@ -18,7 +18,7 @@ int main(void)
 			if (i != k)
 			{
 				putchar(i);
-				putchar(k);			
+				putchar(k);		
 				if (i == '8' && k == '9')
 					continue;
 				putchar(',');
