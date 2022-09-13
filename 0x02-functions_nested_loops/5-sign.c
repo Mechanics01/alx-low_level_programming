@@ -17,8 +17,10 @@ int print_sign(int n)
 		return (0);
 	}
 	else
+	{
 		_putchar('-');
 		return (-1);
+	}
 	return (0);
 }
 
