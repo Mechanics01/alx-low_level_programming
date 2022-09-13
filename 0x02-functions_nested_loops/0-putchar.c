@@ -11,5 +11,6 @@ int main(void)
 
 	for (a = 0; a <= 7; a++)
 		_putchar(s[a]);
-	return 0;
+	_putchar('\n');
+	return (0);
 }
