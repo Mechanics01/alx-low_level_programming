@@ -9,13 +9,19 @@
  */
 int main(void)
 {
-	char low;
-	int i;
-
-	for (i = '0'; i <= '9'; i++)
+	
+	int i = 48;
+	
+	while (i < 58)
+	{
 		putchar(i);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
+		if (i != 57);
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		i++;
+	}
 	putchar('\n');
 	return (0);
 }
