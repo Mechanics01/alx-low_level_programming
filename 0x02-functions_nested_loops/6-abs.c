@@ -2,7 +2,7 @@
 /**
  * _abs - prints the absolute value of the function
  * @n: letter whose absoulte value is needed
- * Return: Absoulte values of given input 
+ * Return: Absoulte values of given input
  */
 int _abs(int n)
 {
