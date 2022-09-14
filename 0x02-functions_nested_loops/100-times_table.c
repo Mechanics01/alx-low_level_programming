@@ -4,7 +4,7 @@
  * @n: A given integer n
  * Return: void
  */
-int times_table(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
@@ -31,7 +31,7 @@ void putformat(int n)
 	if (n <= 9)
 	{
 		_putchar(',');
-		_putchar(' ')
+		_putchar(' ');
 		_putchar(' ');
 		_putchar(' ');
 		_putchar(n + '0');
