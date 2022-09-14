@@ -9,7 +9,8 @@
 int main(void)
 {
 	int i;
-	long int fibonacci[50];
+	long int fibonacci[50]
+		;
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
