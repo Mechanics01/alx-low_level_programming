@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	long int max = -1, n = 612852475143;
+	long int max = -1;
+       	long int n = 612852475143;
 	int i = 3;
 
 	while (n % 2 == 0)
 	{
 		max = 2;
-		n /= 2;
+		n = n / 2;
 	}
 	while (i <= sqrt(n))
 	{
@@ -21,7 +22,7 @@ int main(void)
 			max = i;
 			n = n / i;
 		}
-		i += 2;
+		i = i + 2;
 	}
 	if (n > 2)
 		max = n;
