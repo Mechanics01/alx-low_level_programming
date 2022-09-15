@@ -4,7 +4,7 @@
  * @size: size of triangle
  * Return: void
  */
-void print_trianlge(int size)
+void print_triangle(int size)
 {
 	int i = 1 , a = 0;
 
