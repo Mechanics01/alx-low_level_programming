@@ -8,17 +8,17 @@ int main(void)
 {
 	int a = 1, i = 2;
 
-	printf("%d", a);
+	printf(" %d", a);
 	while (i < 101)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		else if (i % 3 == 0)
-			printf("Fizz");
+			printf(" Fizz");
 		else if (i % 5 == 0)
-			printf("Buzz");
+			printf(" Buzz");
 		else
-			printf("%d", i);
+			printf(" %d", i);
 		i++;
 	}
 	printf("\n");
