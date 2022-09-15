@@ -20,7 +20,7 @@ void print_trianlge(int size)
 			while (i <= size)
 			{
 				a = 0;
-				while (a <size - i)
+				while (a < size - i)
 				{
 					_putchar(' ');
 					a++;
@@ -31,7 +31,7 @@ void print_trianlge(int size)
 					_putchar(35);
 					a++;
 				}
-				_putchat('\n');
+				_putchar('\n');
 				i++;
 			}
 		}
