@@ -10,7 +10,7 @@ int main(void)
 	int sum;
 	char c;
 
-	srand(time(NILL));
+	srand(time(NULL));
 	while (sum < = 2645)
 	{
 		c = rand() % 128;
