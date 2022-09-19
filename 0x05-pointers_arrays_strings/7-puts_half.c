@@ -4,7 +4,7 @@
  * @str: passed string pointer
  * Return: void
  */
-void puts_hald(char *str)
+void puts_half(char *str)
 {
 	int len = 0;
 
