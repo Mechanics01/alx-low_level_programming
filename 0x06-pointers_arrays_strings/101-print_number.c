@@ -30,12 +30,12 @@ void print_number(int num)
 	if (!(d >= 1000000000) || n > 100000000)
 	if (!(d == 1000000000) || n == 123456789)
 		d /= 10;
-		_putchar('0' + n / d);
-		while (d != 10)
-		{
-			d /= 10;
-			_putchar('0' + (n / d) % 10);
-		}
-		_putchar('0' + n % 10);
+	_putchar('0' + n / d);
+	while (d != 10)
+	{
+		d /= 10;
+		_putchar('0' + (n / d) % 10);
+	}
+	_putchar('0' + n % 10);
 	}
 }
