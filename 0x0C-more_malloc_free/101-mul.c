@@ -85,7 +85,8 @@ int main(int argc, char *argv[])
 			}
 		}
 		if (res[0] == 0)
-			i = 1;									else	
+			i = 1;
+		else	
 				i = 0;
 		for (; i < length; i++)
 			printf("%d", res[i]);
